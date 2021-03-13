@@ -10,8 +10,12 @@ func Calculate(x int, y int) int {
 	return x + y
 }
 
+func Square(x int) int {
+	return x * x
+}
+
 func main() {
-	fmt.Println("CI/CD example")
+	fmt.Println("Go CI/CD example")
 
 	msg := book.Book()
 	fmt.Println(msg)
