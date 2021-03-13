@@ -11,7 +11,7 @@ func Calculate(x int, y int) int {
 }
 
 func main() {
-	fmt.Println("CI/CD example")
+	fmt.Println("Go CI/CD example")
 
 	msg := book.Book()
 	fmt.Println(msg)
